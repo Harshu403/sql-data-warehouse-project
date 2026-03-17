@@ -6,28 +6,28 @@ This project demonstrates an end-to-end data warehousing and analytics solution 
 ## 🏗️ Data Architecture
 
 This project follows the Medallion Architecture approach:
--Bronze Layer:
+**Bronze Layer:**
 Stores raw data ingested directly from source systems (CSV files) into SQL Server without any transformation.
--Silver Layer:
+**Silver Layer:**
 Performs data cleaning, transformation, standardization, and normalization to make data analysis-ready.
--Gold Layer:
+**Gold Layer:**
 Contains business-ready data modeled using a star schema, optimized for reporting and analytics.
 
 ## 📖 Project Overview
 
 This project includes:
--Data Architecture Design
+**Data Architecture Design**
 Building a modern data warehouse using Bronze, Silver, and Gold layers.
--ETL Pipelines
+**ETL Pipelines**
 Extracting, transforming, and loading data from ERP and CRM systems.
--Data Modeling
+**Data Modeling**
 Creating fact and dimension tables for efficient analytical querying.
--Analytics & Reporting
+**Analytics & Reporting**
 Writing SQL queries to generate insights and business reports.
 
 ## 🎯 Key Skills Demonstrated
 
-This project showcases expertise in:
+**This project showcases expertise in:**
 -SQL Development
 -Data Engineering
 -ETL Pipeline Development
@@ -43,10 +43,10 @@ This project showcases expertise in:
 
 ## 🚀 Project Requirements
 ### 📌 Data Engineering
-Objective:
+**Objective:**
 Build a data warehouse to consolidate sales data from multiple sources for analytical reporting.
 
-Key Tasks:
+**Key Tasks:**
 -Import data from ERP and CRM systems (CSV files)
 -Perform data cleaning and handle data quality issues
 -Integrate data into a unified analytical model
@@ -54,10 +54,10 @@ Key Tasks:
 -Document the data model clearly
 
 ### 📊 Data Analytics
-Objective:
+**Objective:**
 Generate insights using SQL queries on the warehouse data.
 
-Key Insights:
+**Key Insights:**
 -Customer behavior analysis
 -Product performance tracking
 -Sales trend analysis
