@@ -5,41 +5,33 @@ This project demonstrates an end-to-end data warehousing and analytics solution 
 
 ## 🏗️ Data Architecture
 
-This project follows the Medallion Architecture approach:
-**Bronze Layer:**
-Stores raw data ingested directly from source systems (CSV files) into SQL Server without any transformation.
-**Silver Layer:**
-Performs data cleaning, transformation, standardization, and normalization to make data analysis-ready.
-**Gold Layer:**
-Contains business-ready data modeled using a star schema, optimized for reporting and analytics.
+1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+2. **Silver Layer**: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+3. **Gold Layer**: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 ## 📖 Project Overview
 
 This project includes:
-**Data Architecture Design**
-Building a modern data warehouse using Bronze, Silver, and Gold layers.
-**ETL Pipelines**
-Extracting, transforming, and loading data from ERP and CRM systems.
-**Data Modeling**
-Creating fact and dimension tables for efficient analytical querying.
-**Analytics & Reporting**
-Writing SQL queries to generate insights and business reports.
+1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
+2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
+3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
+4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
 ## 🎯 Key Skills Demonstrated
 
 **This project showcases expertise in:**
--SQL Development
--Data Engineering
--ETL Pipeline Development
--Data Modeling (Star Schema)
--Data Analytics & Reporting
+- SQL Development
+- Data Engineering
+- ETL Pipeline Development
+- Data Modeling (Star Schema)
+- Data Analytics & Reporting
 
 ## 🛠️ Tools & Technologies
--SQL Server Express – Database engine
--SQL Server Management Studio (SSMS) – Database management
--Draw.io – Architecture & data modeling diagrams
--Notion – Project planning and documentation
--GitHub – Version control and collaboration
+- SQL Server Express – Database engine
+- SQL Server Management Studio (SSMS) – Database management
+- Draw.io – Architecture & data modeling diagrams
+- Notion – Project planning and documentation
+- GitHub – Version control and collaboration
 
 ## 🚀 Project Requirements
 ### 📌 Data Engineering
