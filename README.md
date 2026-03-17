@@ -39,20 +39,20 @@ This project includes:
 Build a data warehouse to consolidate sales data from multiple sources for analytical reporting.
 
 **Key Tasks:**
--Import data from ERP and CRM systems (CSV files)
--Perform data cleaning and handle data quality issues
--Integrate data into a unified analytical model
--Focus on the latest dataset (no historization required)
--Document the data model clearly
+- Import data from ERP and CRM systems (CSV files)
+- Perform data cleaning and handle data quality issues
+- Integrate data into a unified analytical model
+- Focus on the latest dataset (no historization required)
+- Document the data model clearly
 
 ### 📊 Data Analytics
 **Objective:**
 Generate insights using SQL queries on the warehouse data.
 
 **Key Insights:**
--Customer behavior analysis
--Product performance tracking
--Sales trend analysis
+- Customer behavior analysis
+- Product performance tracking
+- Sales trend analysis
 
 ## 📂 Repository Structure
 ```
