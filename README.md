@@ -1,9 +1,9 @@
-Data Warehouse and Analytics Project
+# Data Warehouse and Analytics Project
 
 Welcome to the Data Warehouse and Analytics Project 🚀
 This project demonstrates an end-to-end data warehousing and analytics solution — from raw data ingestion to generating actionable business insights. It is designed as a portfolio project to showcase best practices in data engineering and data analytics.
 
-🏗️ Data Architecture
+## 🏗️ Data Architecture
 
 This project follows the Medallion Architecture approach:
 -Bronze Layer:
@@ -13,7 +13,7 @@ Performs data cleaning, transformation, standardization, and normalization to ma
 -Gold Layer:
 Contains business-ready data modeled using a star schema, optimized for reporting and analytics.
 
-📖 Project Overview
+## 📖 Project Overview
 
 This project includes:
 -Data Architecture Design
@@ -25,7 +25,7 @@ Creating fact and dimension tables for efficient analytical querying.
 -Analytics & Reporting
 Writing SQL queries to generate insights and business reports.
 
-🎯 Key Skills Demonstrated
+## 🎯 Key Skills Demonstrated
 
 This project showcases expertise in:
 -SQL Development
@@ -34,15 +34,15 @@ This project showcases expertise in:
 -Data Modeling (Star Schema)
 -Data Analytics & Reporting
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 -SQL Server Express – Database engine
 -SQL Server Management Studio (SSMS) – Database management
 -Draw.io – Architecture & data modeling diagrams
 -Notion – Project planning and documentation
 -GitHub – Version control and collaboration
 
-🚀 Project Requirements
-📌 Data Engineering
+## 🚀 Project Requirements
+### 📌 Data Engineering
 Objective:
 Build a data warehouse to consolidate sales data from multiple sources for analytical reporting.
 
@@ -53,7 +53,7 @@ Key Tasks:
 -Focus on the latest dataset (no historization required)
 -Document the data model clearly
 
-📊 Data Analytics
+### 📊 Data Analytics
 Objective:
 Generate insights using SQL queries on the warehouse data.
 
@@ -62,7 +62,7 @@ Key Insights:
 -Product performance tracking
 -Sales trend analysis
 
-📂 Repository Structure
+## 📂 Repository Structure
 data-warehouse-project/
 │
 ├── datasets/                           # Raw data (ERP & CRM)
@@ -87,9 +87,9 @@ data-warehouse-project/
 ├── .gitignore
 └── requirements.txt
 
-🛡️ License
+## 🛡️ License
 This project is licensed under the MIT License. You are free to use, modify, and share it with proper attribution.
 
-🌟 About Me
+## 🌟 About Me
 Hi! I'm Harshini, a Data Analyst with passion for data analytics.
 I enjoy working on data-driven projects that transform raw data into meaningful insights and support business decision-making.
